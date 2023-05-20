@@ -6,36 +6,66 @@ body{
 
 
 
-.mycolor{
-
-
+.mylink{
 font-size: 14px;
 font-weight: 600;
 color:cyan;
-    padding: 20px 0;
-    display: inline-block;
-    margin-left: 30px;
+ padding: 20px 0;
+display: inline-block;
+ margin-left: 30px;
 
 
 }
 
 
-.mynav{
-    margin-left: 200px;
-padding-right: 100px;
-color:brown
+.navbar-brand{
+    margin-left: 100px;
+padding-right: 50px;
+color:brown;
+font-size: 30px;
 
 }
 
+
+.myimg{
+    display: block;
+margin-bottom: 25px;
+overflow: hidden;
+position: relative;
+width:350px ;
+height:200px ;
+border-radius: 20px;
+
+}
+
+
+
+
+.card-title{
+    clear: both;
+    color: #111;
+    padding: 0;
+    margin: 0 0 10px 0;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 9px;
+  
+}
+
+.card-text{
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: left;
+}
 
 .mybutton{
     background-color: #fff;
-border-color: #0cb8b6;
-color: #0cb8b6;
-border: 1px solid;
-}
+    border-color: #0cb8b6;
+    color: #0cb8b6;
+    border: 1px solid;
+    }
 
-
-.mycard{
-    height: 350px;
-}
